@@ -19,4 +19,8 @@ public class ScreeningEntity {
         this.startTime = startTime;
         this.theater = theater;
     }
+
+    public LocalDateTime getStartTime() {
+        return this.startTime;
+    }
 }
