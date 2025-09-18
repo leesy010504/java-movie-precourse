@@ -8,4 +8,8 @@ public class MovieEntity {
         this.title = title;
         this.runningTime = runningTime;
     }
+
+    public long getRunningTime() {
+        return this.runningTime;
+    }
 }
