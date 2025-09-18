@@ -15,4 +15,16 @@ public class UserEntity {
             this.points = points;
             this.bookings = new ArrayList<>();
     }
+
+    public void addBooking(BookingEntity booking) {
+        this.bookings.add(booking);
+    }
+
+    public void usePoints(int pointsToUse) {
+        this.points -= pointsToUse;
+    }
+
+    public int getPoints() {
+        return points;
+    }
 }
