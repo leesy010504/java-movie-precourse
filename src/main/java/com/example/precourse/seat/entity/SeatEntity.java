@@ -8,4 +8,8 @@ public class SeatEntity {
         this.location = location;
         this.grade = grade;
     }
+
+    public SeatGrade getGrade() {
+        return grade;
+    }
 }
