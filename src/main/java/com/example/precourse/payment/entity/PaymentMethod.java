@@ -9,4 +9,8 @@ public enum PaymentMethod {
     PaymentMethod(double discountRate) {
         this.discountRate = discountRate;
     }
+
+    public double getDiscountRate() {
+        return this.discountRate;
+    }
 }
